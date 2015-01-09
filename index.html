@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+	<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+	<script src="apps/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<title>YouTube Search</title>
+</head>
+
+<body>
+	<div id="main-content">
+		<div id="title-bar">
+			<h1 id="home">YouTube Search</h1>
+			<div id="logo"></div>
+		</div>
+		<div id="form">
+			<form id="search-form">
+				<input type="text" id="query">
+				<input type="submit" id="submit">
+			</form>
+		</div>
+		<br>
+		<div id="results-div">
+			<p id="results-title"><span id="intro">Simple YouTube video search, showing the top 25 results for your search query.</span></p>
+			<ul id="results">
+			</ul>
+		</div>
+	</div>
+	
+</body>
+
+</html>
